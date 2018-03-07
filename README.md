@@ -89,7 +89,7 @@ Keep this handy reference close when programming with Twolang:
 
 This completes both the specification and tutorial of the Two programming language.
 
-Check out and run some of the examples and we ecourage you to build upon them and contribute back to the Twolang community.
+Check out and run some of the examples and we encourage you to build upon them and contribute back to the Twolang community.
 
 # Appendix - implementations of Twolang in various languages:
 One of the strengths of Twolang is that it can be easily implemented in a portable manner by many other higher level languages.
@@ -124,6 +124,6 @@ b'1'
 
 "There's only Two ways to do it"
 
+# Contributions
 
-
-
+Pull requests are welcome.
