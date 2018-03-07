@@ -101,7 +101,7 @@ One of the strengths of Twolang is that it can be easily implemented in a portab
 ```
 
 ## Python implementation of Twolang:
-Note that Python 2 and Python 3 are significantly different and porting of Twolang has been a major project recent completed.
+Note that Python 2 and Python 3 are significantly different and porting of Twolang has been a major project recently completed. You can see below we have managed to create a Python code based very similar across both Python 2 and 3, although unicode must of course be handled differently.
 
 ```
 Python 2.7.6 (v2.7.6:3a1db0d2747e, Nov 10 2013, 00:18:52)
