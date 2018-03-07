@@ -94,12 +94,13 @@ Check out and run some of the examples and we encourage you to build upon them a
 # Appendix - implementations of Twolang in various languages:
 One of the strengths of Twolang is that it can be easily implemented in a portable manner by many other higher level languages.
 
-Ruby implementation of Twolang
+##Ruby implementation of Twolang:
 ```
 (a = 1).to_s(2)     #=> "00001"
 (a = 0).to_s(2)     #=> "00000"
 ```
 
+## Python implementation of Twolang:
 Note that Python 2 and Python 3 are significantly different and porting of Twolang has been a major project recent completed.
 
 ```
@@ -118,6 +119,11 @@ Type "help", "copyright", "credits" or "license" for more information.
 b'0'
 >>> b'1'
 b'1'
+```
+
+## Lisp implementation of Twolang:
+```
+(((((((((((((((((010010100()()()()()((((((((((((((((((000)))))))))))))))))00(0100000)))))
 ```
 
 # The Tao of Twolang
