@@ -20,9 +20,11 @@ The beauty and power of Twolang comes from it having only two 'instructions'.  B
 
 # Two's first instruction is '0'.
 
+# Two's second instruction is '1'.
+
 It may take some time to fully understand the paradigm behind Two's programming model but once it clicks in you'll find it natural.
 
-# Two's second instruction is '1'.
+You write Twolang applications by tying together sequences of the Two instructions to formulate higher level constructs.
 
 # Developing applications in Twolang
 
@@ -81,11 +83,25 @@ Check out and run some of the examples and we ecourage you to build upon them an
 # Appendix - implementations of Twolang in various languages:
 One of the strengths of Twolang is that it can be easily implemented in a portable manner by many other higher level languages.
 
-Ruby
+Ruby implementation of Twolang
 (a = 1).to_s(2)     #=> "00001"
 (a = 0).to_s(2)     #=> "00000"
 
-Python
+Note that Python 2 and Python 3 are significantly different and porting of Twolang has been a major project recent completed.
+
+Python 2.7.6 (v2.7.6:3a1db0d2747e, Nov 10 2013, 00:18:52)
+Type "help", "copyright", "credits" or "license" for more information.
+>>> b'0'
+'0'
+>>> b'1'
+'1'
+
+Python 3.5.2 (v3.5.2:4def2a2901a5, Jun 26 2016, 10:47:25)
+Type "help", "copyright", "credits" or "license" for more information.
+>>> b'0'
+b'0'
+>>> b'1'
+b'1'
 
 
 
