@@ -28,8 +28,11 @@ You write Twolang applications by tying together sequences of the Two instructio
 
 # Developing applications in Twolang
 
-You can build any software application in Twolang given the two instructions available.  It is true that one of the down sides of Twolang applications can be a certain level of verbosity, but we believe that the tradeoff is worthwile given the performance gains and code readaibility and maintainability which is easily on par with 'modern' languages such as Perl.  Here's an example to compare Hello World in Twolang:
+You can build any software application in Twolang given the two instructions available.  It is true that one of the down sides of Twolang applications can be a certain level of verbosity, but we believe that the tradeoff is worthwhile given the performance gains and code readaibility and maintainability which is easily on par with modern languages such as Perl.  
 
+Here's an example to compare Hello World in Twolang with 'Hello World' in Perl (ref http://www.foo.be/docs/tpj/issues/vol4_3/tpj0403-0017.html):
+
+Twolang example:
 01010001111000101000111000001010101101001000101110001011010100010101100111100011110001
 01000100000001011010011010011100101111100011 010001000000010 010001000000010
 001111000011100 010001000000010010001000000010 010001000000010  010001000000010
@@ -38,7 +41,7 @@ You can build any software application in Twolang given the two instructions ava
     010001000000010
     010001000000010
 
-With 'Hello World' in Perl (ref http://www.foo.be/docs/tpj/issues/vol4_3/tpj0403-0017.html)
+Perl example:
 sub ocr{@{$-[$@++]}=split$,for(split'\n',shift);for$@(0..4){for(0..51){++$_{$_
  }if($-[$@][$_]=~$")}}@&=(-1);for(sort{$a<=>$b}keys%_){push@&,$_ if($_{$_}>4)
   }push@&,52;for$@(0..13){@{$|[$@][$_]}=@{$-[$_]}[$&[$@]+1..$&[$@+1]-1]for(0..
@@ -52,16 +55,19 @@ sub ocr{@{$-[$@++]}=split$,for(split'\n',shift);for$@(0..4){for(0..51){++$_{$_
 Twolang is whitespace sensitive.  Some feel that this is a detrimental decision for the language but others feel it improves readibility and consistency.
 
 For example the Twolang authors considered that this code is far more understandable than the bracketed alternative below:
+
+Figure 1:
 010001000000010
     010001000000010
     010001000000010
 
+Figure 2:
 010001000000010: {
     010001000000010
     010001000000010
 }
 
-Whitespace is one of the many subtle but important decisions that pervade Twolang and are the outcome of many years research in programming language technology. 
+Whitespace is one of the many subtle but important decisions that pervade Twolang and are the outcome of many years research in programming language technology.   Clearly Figure 1 i the more readable and maintainable.
 
 # Aliasing reference table for Twolang.
 
@@ -103,6 +109,9 @@ b'0'
 >>> b'1'
 b'1'
 
+# The Tao of Twolang
+
+"There's only Two ways to do it"
 
 
 
