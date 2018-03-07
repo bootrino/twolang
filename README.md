@@ -85,6 +85,18 @@ Keep this handy reference close when programming with Twolang:
 0 aliases to no
 0 aliases to false
 ```
+Aliasing gives a higher level notation for Twolang, which some find to be more readable.  For example, the Twolang implementation of Hello World shown above in aliased and more understandable form is represented as:
+
+```
+noyesnoyesnononoyesyesyesyesnononoyesnoyesnononoyesyesyesnononononoyesnoyesnoyesnoyesyesnoyesnonoyesnononoyesnoyesyesyesnononoyesnoyesyesnoyesnoyesnononoyesnoyesnoyesyesnonoyesyesyesyesnononoyesyesyesyesnononoyes
+noyesnononoyesnononononononoyesnoyesyesnoyesnonoyesyesnoyesnonoyesyesyesnonoyesnoyesyesyesyesyesnononoyesyes noyesnononoyesnononononononoyesno noyesnononoyesnononononononoyesno
+nonoyesyesyesyesnonononoyesyesyesnono noyesnononoyesnononononononoyesnonoyesnononoyesnononononononoyesno noyesnononoyesnononononononoyesno  noyesnononoyesnononononononoyesno
+noyesnononoyesnononononononoyesno noyesnononoyesnononononononoyesno       noyesnononoyesnononononononoyesno  noyesnononoyesnononononononoyesnonoyesnononoyesnononononononoyesno
+    noyesnononoyesnononononononoyesno
+    noyesnononoyesnononononononoyesno
+    noyesnononoyesnononononononoyesno
+```
+
 # Finally
 
 This completes both the specification and tutorial of the Two programming language.
