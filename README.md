@@ -12,7 +12,7 @@ Two is Turing Complete, understandable for beginners and powerful enough to sati
 
 As a new language, Two lacks the library support of its modern competitors but we expect this will come soon enough.
 
-Two tends to referred to as Twolang because the author of the language wanted a cool name and felt one of the core words of the English language appropriate but failed to give much though to search engines and searchability so the cool and minimalist name 'Two' tends now to be a dorky and meaningless 'Twolang', but no matter what's done is done.  When we came out of the lab with our new language and gave some thought to the searchability thing was we did consider renaming it "TwoRing" but this was considered even more dorky than "Twolang", and after all Microsoft got away with naming their primary language strategy after a top level domain so we thought "whatever, Twolang it is".
+Two tends to be referred to as Twolang because the author of the language wanted a cool name and felt one of the core words of the English language appropriate but failed to give much though to search engines and searchability so the cool and minimalist name 'Two' tends now to be a dorky and meaningless 'Twolang', but no matter what's done is done.  When we came out of the lab with our new language and gave some thought to the searchability thing was we did consider renaming it "TwoRing" but this was considered even more dorky than "Twolang", and after all Microsoft got away with naming their primary language strategy after a top level domain so we thought "whatever, Twolang it is".
 
 # Overview of Twolang.
 
@@ -129,6 +129,10 @@ b'1'
 # The Tao of Twolang
 
 "There's only Two ways to do it"
+
+# License
+
+Twolang is licensed under the MIT license.
 
 # Contributions
 
