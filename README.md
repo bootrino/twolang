@@ -100,7 +100,7 @@ One of the strengths of Twolang is that it can be easily implemented in a portab
 (a = 0).to_s(2)     #=> "00000"
 ```
 
-## Python implementation of Twolang:
+# Python implementation of Twolang:
 Note that Python 2 and Python 3 are significantly different and porting of Twolang has been a major project recently completed. You can see below we have managed to create a Python code based very similar across both Python 2 and 3, although unicode must of course be handled differently.
 
 ```
