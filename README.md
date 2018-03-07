@@ -33,6 +33,7 @@ You can build any software application in Twolang given the two instructions ava
 Here's an example to compare Hello World in Twolang with 'Hello World' in Perl (ref http://www.foo.be/docs/tpj/issues/vol4_3/tpj0403-0017.html):
 
 Twolang example:
+
 01010001111000101000111000001010101101001000101110001011010100010101100111100011110001
 01000100000001011010011010011100101111100011 010001000000010 010001000000010
 001111000011100 010001000000010010001000000010 010001000000010  010001000000010
@@ -42,6 +43,7 @@ Twolang example:
     010001000000010
 
 Perl example:
+
 sub ocr{@{$-[$@++]}=split$,for(split'\n',shift);for$@(0..4){for(0..51){++$_{$_
  }if($-[$@][$_]=~$")}}@&=(-1);for(sort{$a<=>$b}keys%_){push@&,$_ if($_{$_}>4)
   }push@&,52;for$@(0..13){@{$|[$@][$_]}=@{$-[$_]}[$&[$@]+1..$&[$@+1]-1]for(0..
