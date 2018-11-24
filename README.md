@@ -52,6 +52,8 @@ sub ocr{@{$-[$@++]}=split$,for(split'\n',shift);for$@(0..4){for(0..51){++$_{$_
      for(0..20){push@},chr$_+65if(7*(8,4,2,9,2,3,7,8,1,$@,5,4,9,10,10,6,3,8,4,
       8,8)[$_]+(5,8,3,3,4,2,1,2,8,2,7,1,5,4,6,$@,3,6,8,4,1)[$_]==7*$^+$$)}}@}} 
 ```
+It's easy to see which language is the easier to understand and read.
+
 # Twolang is whitespace sensitive
 
 Twolang is whitespace sensitive.  Some feel that this is a detrimental decision for the language but others feel it improves readibility and consistency.
